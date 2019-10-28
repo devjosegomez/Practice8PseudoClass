@@ -1,0 +1,19 @@
+li a:hover{
+    color: red;
+}
+
+a:visited{
+    color: yellow;
+}
+
+a:link{
+    color: green;
+}
+
+input[type="button"]{
+    border: 5px solid blue;
+}
+
+input[type="button"]:focus{
+    border: 5px solid green;
+}
