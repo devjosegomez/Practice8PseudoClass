@@ -1,9 +1,27 @@
+*{ 
+    font-family: 'Quicksand', sans-serif;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    float: left;
+    text-decoration: none;
+    margin: 7px;
+}
+
+li a{
+    display: block;
+}
+
 li a:hover{
     color: red;
 }
 
 a:visited{
-    color: yellow;
+    color: blue;
 }
 
 a:link{
@@ -16,4 +34,11 @@ input[type="button"]{
 
 input[type="button"]:focus{
     border: 5px solid green;
+}
+
+#cuadro{
+    border-radius: 20px;
+    border: 10px solid blue;
+    padding: 50px;
+    font-size: 30px;
 }
